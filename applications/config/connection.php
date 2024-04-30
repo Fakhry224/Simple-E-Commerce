@@ -1,8 +1,9 @@
 <?php
 
+// Adjust this field by your own configuration
 $host = "localhost";
-$username = "root";
-$password = "rahasiapengguna";
+$username = "root"; 
+$password = ""; 
 $database = "projek_pemweb";
 
 $conn = new mysqli($host, $username, $password, $database);
